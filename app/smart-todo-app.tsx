@@ -1,6 +1,6 @@
 "use client"
 import  { useState, useEffect } from 'react';
-import { Calendar, Target, Brain, TrendingUp, Zap, Plus, Check, Clock, AlertCircle, Sparkles, ChevronRight, Menu, X, BarChart3, PieChart, Filter, ArrowUp, ArrowDown, Edit2, Trash2, CalendarDays } from 'lucide-react';
+import { Calendar, Target, Brain, TrendingUp, Zap, Plus, Check, Clock, AlertCircle, Sparkles, ChevronRight, Menu, X, BarChart3, PieChart, Filter, ArrowUp, ArrowDown, Edit2, Trash2, CalendarDays, Pen } from 'lucide-react';
 
 // Types
 type Priority = 'low' | 'medium' | 'high';
@@ -350,13 +350,12 @@ export default function SmartTodoApp() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
               <div className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 p-2 rounded-xl shadow-lg">
-                <Brain className="w-6 h-6 text-white" />
+                <Pen className="w-6 h-6 text-white" />
               </div>
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  SmartGoals Pro
+                  SmartTick
                 </h1>
-                <p className="text-xs text-slate-500">AI-Powered Task Management</p>
               </div>
             </div>
 
